@@ -1,0 +1,27 @@
+{
+    "name": "zngue/laravel_layui_admin_category",
+    "description": "laravel layui layuicms   zngue 分类管理",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zngue",
+            "email": "875407262@qq.com"
+        }
+    ],
+    "require": {
+        "zngue/laravel_layui_admin_user": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zngue\\Category\\": "src"
+        }
+    },
+    "extra": {
+        "laravel":{
+            "providers": [
+                "Zngue\\Category\\Provider\\CategoryServiceProvider"
+            ]
+        }
+    }
+}
